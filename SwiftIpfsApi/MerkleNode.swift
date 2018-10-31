@@ -7,7 +7,7 @@
 //  Licensed under MIT See LICENCE file in the root of this project for details.
 
 import Foundation
-import SwiftMultihash
+//import SwiftMultihash
 
 public enum MerkleNodeError : Error {
     case jsonFormatError
@@ -60,7 +60,7 @@ public class MerkleNode {
         
         /// hash must be set before exiting with a throw.
         do {
-            self.hash = try SwiftMultihash.fromB58String(hash)
+            self.hash = try /*SwiftMultihash.*/fromB58String(hash)
         } catch {
             self.hash = nil
             throw error

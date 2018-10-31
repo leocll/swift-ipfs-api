@@ -7,7 +7,7 @@
 //
 //  Licensed under MIT See LICENCE file in the root of this project for details. 
 import Foundation
-import SwiftMultihash
+//import SwiftMultihash
 
 /** Lists links (references) from an object */
 public class Refs : ClientSubCommand {

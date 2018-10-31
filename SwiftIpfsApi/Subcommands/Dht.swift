@@ -7,8 +7,8 @@
 //
 //  Licensed under MIT See LICENCE file in the root of this project for details. 
 
-import SwiftMultihash
-import SwiftMultiaddr
+//import SwiftMultihash
+//import SwiftMultiaddr
 import Foundation
 
 public class Dht : ClientSubCommand {

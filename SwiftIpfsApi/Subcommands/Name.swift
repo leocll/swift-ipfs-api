@@ -7,7 +7,7 @@
 //
 //  Licensed under MIT See LICENCE file in the root of this project for details. 
 
-import SwiftMultihash
+//import SwiftMultihash
 
 /** IPNS is a PKI namespace, where names are the hashes of public keys, and
  the private key enables publishing new (signed) values. In both publish

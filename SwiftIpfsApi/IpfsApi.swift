@@ -7,8 +7,8 @@
 //  Licensed under MIT See LICENCE file in the root of this project for details. 
 
 import Foundation
-import SwiftMultiaddr
-import SwiftMultihash
+//import SwiftMultiaddr
+//import SwiftMultihash
 
 /// This is to allow a Multihash to be used as a Dictionary key.
 extension Multihash : Hashable {

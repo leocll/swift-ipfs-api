@@ -7,7 +7,7 @@
 //
 //  Licensed under MIT See LICENCE file in the root of this project for details. 
 
-import SwiftMultihash
+//import SwiftMultihash
 
 /** Provides a familar interface to filesystems represtented by IPFS objects that
     hides IPFS-implementation details like layout objects (e.g. fanout and chunking). */

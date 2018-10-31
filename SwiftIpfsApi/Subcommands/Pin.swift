@@ -7,7 +7,7 @@
 //
 //  Licensed under MIT See LICENCE file in the root of this project for details. 
 
-import SwiftMultihash
+//import SwiftMultihash
 
 /** Pinning an object will ensure a local copy is not garbage collected. */
 public class Pin : ClientSubCommand {
