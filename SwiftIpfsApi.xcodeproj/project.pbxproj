@@ -29,7 +29,6 @@
 		84423A06218998FE00EE7E44 /* Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84423A03218998FE00EE7E44 /* Sum.swift */; };
 		84423A07218998FE00EE7E44 /* SwiftMultihash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84423A04218998FE00EE7E44 /* SwiftMultihash.swift */; };
 		84423A08218998FE00EE7E44 /* Io.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84423A05218998FE00EE7E44 /* Io.swift */; };
-		84423A11218999F400EE7E44 /* SwiftMultiaddr.h in Headers */ = {isa = PBXBuildFile; fileRef = 84423A0A218999F400EE7E44 /* SwiftMultiaddr.h */; };
 		84423A12218999F400EE7E44 /* Codec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84423A0B218999F400EE7E44 /* Codec.swift */; };
 		84423A13218999F400EE7E44 /* Base32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84423A0C218999F400EE7E44 /* Base32.swift */; };
 		84423A14218999F400EE7E44 /* IPUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84423A0D218999F400EE7E44 /* IPUtil.swift */; };
@@ -77,7 +76,6 @@
 		84423A03218998FE00EE7E44 /* Sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sum.swift; sourceTree = "<group>"; };
 		84423A04218998FE00EE7E44 /* SwiftMultihash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftMultihash.swift; sourceTree = "<group>"; };
 		84423A05218998FE00EE7E44 /* Io.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Io.swift; sourceTree = "<group>"; };
-		84423A0A218999F400EE7E44 /* SwiftMultiaddr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftMultiaddr.h; sourceTree = "<group>"; };
 		84423A0B218999F400EE7E44 /* Codec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Codec.swift; sourceTree = "<group>"; };
 		84423A0C218999F400EE7E44 /* Base32.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base32.swift; sourceTree = "<group>"; };
 		84423A0D218999F400EE7E44 /* IPUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPUtil.swift; sourceTree = "<group>"; };
@@ -170,7 +168,6 @@
 		84423A09218999F400EE7E44 /* SwiftMultiaddr */ = {
 			isa = PBXGroup;
 			children = (
-				84423A0A218999F400EE7E44 /* SwiftMultiaddr.h */,
 				84423A0B218999F400EE7E44 /* Codec.swift */,
 				84423A0C218999F400EE7E44 /* Base32.swift */,
 				84423A0D218999F400EE7E44 /* IPUtil.swift */,
@@ -223,7 +220,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84423A11218999F400EE7E44 /* SwiftMultiaddr.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
