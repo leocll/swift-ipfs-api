@@ -26,8 +26,9 @@ Pod::Spec.new do |s|
 
   s.subspec 'SwiftMultihash' do |ss|
     ss.source_files = 'SwiftMultihash/**/*.{h,m,swift}'
-    ss.vendored_frameworks = 'Frameworks/VarInt.framework','Frameworks/SwiftBase58.framework','Frameworks/SwiftGMP.framework','Frameworks/SwiftHex.framework'
   end
+
+  s.vendored_frameworks = 'Frameworks/VarInt.framework','Frameworks/SwiftBase58.framework','Frameworks/SwiftGMP.framework','Frameworks/SwiftHex.framework'
 
 end
 
