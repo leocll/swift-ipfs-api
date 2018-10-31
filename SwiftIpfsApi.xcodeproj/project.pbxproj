@@ -183,8 +183,10 @@
 		AB0A3AA31BD6705B0090C97A = {
 			isa = PBXGroup;
 			children = (
-				844239F92189989900EE7E44 /* Frameworks */,
+				84423A02218998E500EE7E44 /* SwiftMultihash */,
+				84423A09218999F400EE7E44 /* SwiftMultiaddr */,
 				AB0A3AAF1BD6705B0090C97A /* SwiftIpfsApi */,
+				844239F92189989900EE7E44 /* Frameworks */,
 				AB0A3AAE1BD6705B0090C97A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -201,8 +203,6 @@
 		AB0A3AAF1BD6705B0090C97A /* SwiftIpfsApi */ = {
 			isa = PBXGroup;
 			children = (
-				84423A09218999F400EE7E44 /* SwiftMultiaddr */,
-				84423A02218998E500EE7E44 /* SwiftMultihash */,
 				844239DC2189984800EE7E44 /* Subcommands */,
 				844239D82189983200EE7E44 /* Extensions */,
 				AB2C9EDD1BD79E9700BCCF01 /* NetworkIo.swift */,
